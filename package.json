@@ -1,0 +1,26 @@
+{
+  "name": "geography-bot",
+  "version": "0.5.0",
+  "description": "Demo of Messenger bot sending geographical data",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martincarles/Geography-Bot"
+  },
+  "keywords": [
+    "messenger",
+    "bot",
+    "geography"
+  ],
+  "author": "Martin Carles <martin.carles.marcorelles.com>",
+  "license": "MIT",
+  "homepage": "https://developers.facebook.com/docs/messenger-platform/guides/quick-start",
+  "dependencies": {
+    "request": "^2.72.0",
+    "express": "*",
+    "body-parser": "*"
+  }
+}
